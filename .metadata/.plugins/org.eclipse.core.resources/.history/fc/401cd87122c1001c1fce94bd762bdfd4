@@ -1,0 +1,12 @@
+package com.xworkz.hibernatedemo.entity;
+
+public class RestaurantEntity {
+	
+	private int restaurantId;
+	private long contactNo;
+	private String name;
+	private String type;
+	private double rating;
+	
+
+}
