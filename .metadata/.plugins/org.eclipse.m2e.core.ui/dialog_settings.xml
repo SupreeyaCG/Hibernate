@@ -49,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="tv-app"/>
 			<item value="games-demo"/>
 			<item value="games.demo"/>
 		</list>
