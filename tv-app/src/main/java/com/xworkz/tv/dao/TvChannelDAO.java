@@ -7,5 +7,9 @@ public interface TvChannelDAO {
 	 public void saveChannel(TVChannel tvChannel);
 
 	public void getChannel();
+	
+	//public TVChannel getChannelById(Integer channelId);
+	
+	//public void updateChannelPriceById(Double price);
 
 }

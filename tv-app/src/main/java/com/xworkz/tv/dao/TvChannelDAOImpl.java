@@ -44,7 +44,7 @@ public class TvChannelDAOImpl implements TvChannelDAO {
 				entityManager = entityManagerFactory.createEntityManager();
 				entityTransaction = entityManager.getTransaction();
 				entityTransaction.begin();
-				TvChannel channel=entityManager.find(TvChannel.class, 1);
+				TvChannelDAO channel=entityManager.find(TvChannelDAO.class, 1);
 				System.out.println(channel.toString());
 				entityTransaction.commit();
 			} catch (Exception e) {
@@ -54,6 +54,9 @@ public class TvChannelDAOImpl implements TvChannelDAO {
 				if (entityManager != null)
 					entityManager.close();
 			}
+			
+		
+			
 			
 	}
 
